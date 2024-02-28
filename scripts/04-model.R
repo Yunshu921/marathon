@@ -44,6 +44,8 @@ second_model <-
     prior_aux = exponential(rate = 1, autoscale = TRUE),
     seed = 853
   )
+
+prior_summary(second_model)
 #### Save model ####
 saveRDS(
   first_model,
